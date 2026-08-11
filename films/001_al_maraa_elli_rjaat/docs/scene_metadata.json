@@ -1,0 +1,115 @@
+{
+  "film_id": "001_al_maraa_elli_rjaat",
+  "title": "المرأة اللي رجعت",
+  "duration_seconds": 60,
+  "aspect_ratio": "9:16",
+  "language": "Algerian Arabic / Darija",
+  "style": "realistic cinematic emotional drama",
+  "references": {
+    "yacine": "assets/references/01_yacine_reference.png",
+    "fatima": "assets/references/02_fatima_reference.png"
+  },
+  "global_negative_prompt": "different face, changed identity, different clothes, deformed face, bad hands, extra fingers, blurry, cartoon, anime, distorted body, watermark, wrong age, text artifacts",
+  "scenes": [
+    {
+      "id": "scene_01",
+      "time": "00:00-00:05",
+      "duration": 5,
+      "image": "assets/scenes/scene_01_yacine_alone.png",
+      "dialogue_dz": "كان ياسين دايماً يقول: أمي ضاعت عليا وأنا صغير.",
+      "subtitle_ar": "كان ياسين دائماً يقول: أمي ضاعت مني وأنا صغير.",
+      "subtitle_en": "Yacine always said: My mother disappeared when I was little.",
+      "video_prompt": "Animate a slow tracking shot from behind Yacine, then gently move to a side close-up of his sad face. Add subtle walking motion, soft sunset light flicker, background cars moving slowly, cinematic emotional mood, no face change."
+    },
+    {
+      "id": "scene_02",
+      "time": "00:05-00:12",
+      "duration": 7,
+      "image": "assets/scenes/scene_02_help_old_woman.png",
+      "dialogue_dz": "ياسين: يمّا، نعاونك تقطعي الطريق؟",
+      "subtitle_ar": "يا أمي، هل أساعدك على عبور الطريق؟",
+      "subtitle_en": "Mother, can I help you cross the road?",
+      "video_prompt": "Animate Yacine walking slowly toward Fatima. Fatima looks nervous beside the road. Add slight camera push-in, cars passing in background with mild motion blur, realistic body movement, keep faces consistent."
+    },
+    {
+      "id": "scene_03",
+      "time": "00:12-00:19",
+      "duration": 7,
+      "image": "assets/scenes/scene_03_fatima_recognizes.png",
+      "dialogue_dz": "فاطمة: ربي يحفظك يا ولدي...\nياسين: ما كان حتى مشكل يمّا.",
+      "subtitle_ar": "فاطمة: حفظك الله يا بني.\nياسين: لا مشكلة يا أمي.",
+      "subtitle_en": "Fatima: God bless you, my son.\nYacine: No problem, mother.",
+      "video_prompt": "Animate a close-up on Fatima's eyes. Add slight trembling lips, soft tears starting, slow zoom-in, background blur, emotional pause, no change in face or hijab."
+    },
+    {
+      "id": "scene_04",
+      "time": "00:19-00:27",
+      "duration": 8,
+      "image": "assets/scenes/scene_04_crossing_road.png",
+      "dialogue_dz": "شدّها من يدها، وما كانش عارف بلي هذيك اللحظة راح تبدل حياتو.",
+      "subtitle_ar": "أمسك يدها، ولم يكن يعلم أن تلك اللحظة ستغير حياته.",
+      "subtitle_en": "He held her hand, not knowing that moment would change his life.",
+      "video_prompt": "Animate both characters slowly crossing the road. Add gentle side camera movement, subtle walking motion, passing cars in background, warm sunlight, emotional slow-motion feeling, keep hands and faces stable."
+    },
+    {
+      "id": "scene_05",
+      "time": "00:27-00:34",
+      "duration": 7,
+      "image": "assets/scenes/scene_05_bracelet_falls.png",
+      "dialogue_dz": "كي وصلها، طاح منها سوار قديم...",
+      "subtitle_ar": "عندما أوصلها، سقط منها سوار قديم.",
+      "subtitle_en": "When he helped her across, an old bracelet fell.",
+      "video_prompt": "Animate the bracelet falling in slow motion from the fabric bag to the sidewalk. Add small metallic bounce sound impression, close-up camera tilt down, shallow depth of field, dramatic pause."
+    },
+    {
+      "id": "scene_06",
+      "time": "00:34-00:42",
+      "duration": 8,
+      "image": "assets/scenes/scene_06_yacine_shocked.png",
+      "dialogue_dz": "ياسين: هذا السوار... منين جبتيه؟",
+      "subtitle_ar": "هذا السوار... من أين حصلتِ عليه؟",
+      "subtitle_en": "This bracelet... where did you get it?",
+      "video_prompt": "Animate camera moving from the bracelet in Yacine's hand up to his shocked face. Add slight hand tremble, eyes filling with tears, slow push-in, keep scar above left eyebrow visible."
+    },
+    {
+      "id": "scene_07",
+      "time": "00:42-00:50",
+      "duration": 8,
+      "image": "assets/scenes/scene_07_fatima_crying.png",
+      "dialogue_dz": "فاطمة: كان عندي وليدي صغير... اسمو ياسين... ضاع مني في السوق من عشرين عام.",
+      "subtitle_ar": "كان لدي ابن صغير اسمه ياسين، ضاع مني في السوق منذ عشرين عاماً.",
+      "subtitle_en": "I had a little son named Yacine. I lost him in the market twenty years ago.",
+      "video_prompt": "Animate Fatima crying softly. Add trembling hands, slight shoulder movement, slow handheld camera, tears rolling down, emotional pause, keep face and hijab unchanged."
+    },
+    {
+      "id": "scene_flashback",
+      "time": "00:49-00:50",
+      "duration": 1,
+      "image": "assets/scenes/scene_flashback_market.png",
+      "dialogue_dz": "من عشرين عام...",
+      "subtitle_ar": "منذ عشرين عاماً...",
+      "subtitle_en": "Twenty years ago...",
+      "video_prompt": "Animate a quick vintage flashback with slight camera shake, people moving around in the market, child crying, mother searching in panic, add warm faded color and soft blur transition."
+    },
+    {
+      "id": "scene_08",
+      "time": "00:50-00:56",
+      "duration": 6,
+      "image": "assets/scenes/scene_08_scar_reveal.png",
+      "dialogue_dz": "ياسين: يمّا... كنتي تقوليلي: ما تبكيش يا ضو عيني.",
+      "subtitle_ar": "يا أمي... كنتِ تقولين لي: لا تبكِ يا نور عيني.",
+      "subtitle_en": "Mother... you used to tell me: Don’t cry, my light.",
+      "video_prompt": "Animate a close-up on Yacine pointing to the scar above his eyebrow, then shift focus to Fatima's shocked face. Add tears and trembling reaction, slow zoom, emotional silence."
+    },
+    {
+      "id": "scene_09",
+      "time": "00:56-01:00",
+      "duration": 4,
+      "image": "assets/scenes/scene_09_reunion_hug.png",
+      "dialogue_dz": "فاطمة: ياسين؟ ولدي؟\nياسين: يمّا...\nوبعد عشرين عام... رجع الحضن اللي كان ناقصو.",
+      "subtitle_ar": "الأم: ياسين؟ ابني؟\nياسين: أمي...\nوبعد عشرين عاماً، عاد الحضن الذي كان يفتقده.",
+      "subtitle_en": "Mother: Yacine? My son?\nYacine: Mother...\nAfter twenty years, the hug he had been missing finally returned.",
+      "video_prompt": "Animate a tight emotional hug between Yacine and Fatima. Add slow zoom out, tears, slight body trembling, warm sunset light, emotional piano rise, cinematic ending, no face change."
+    }
+  ]
+}
